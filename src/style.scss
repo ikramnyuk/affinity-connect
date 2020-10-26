@@ -1,0 +1,68 @@
+*{
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+@font-face {
+	font-family: 'InterUIBlack';
+	src: url('./assets/Inter-UI-Black.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIBlackItalic';
+	src: url('./assets/Inter-UI-BlackItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIBold';
+	src: url('assets/Inter-UI-Bold.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIBoldItalic';
+	src: url('./assets/Inter-UI-BoldItalic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIRegular';
+	src: url('assets/Inter-UI-Regular.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIItalic';
+	src: url('./assets/Inter-UI-Italic.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIMedium';
+	src: url('./assets/Inter-UI-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: 'InterUIMediumItalic';
+	src: url('./assets/Inter-UI-MediumItalic.otf') format('opentype');
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10px;
+    background-color: #f1f4f6;
+}
+
+.footer{
+	display: flex;
+	align-items: center;
+
+	span{
+		margin-right: 5px;
+		color: #9c9c9c;
+		font-size: 13px;
+		font-weight: 500;
+	}
+}
