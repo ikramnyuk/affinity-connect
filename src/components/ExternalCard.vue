@@ -3,7 +3,9 @@
 		<div class="card">
 			<div class="top">
 				<div class="user">
-					<div class="avatar"></div>
+					<div class="avatar">
+						<img src="../assets/images/avatar.svg" alt="">
+					</div>
 					<div class="user-info">
 						<div class="name">UserName#0001</div>
 						<div class="id">234234234234234</div>
@@ -17,7 +19,7 @@
 				<div class="btn-wraper">
 					<span>Want to use a diferent account?</span>
 					<button>
-						<i class="fas fa-lock"></i>
+						<img src="../assets/images/lock.svg" alt="">
 						<span>Change Account</span>
 					</button>
 				</div>
@@ -27,7 +29,9 @@
 		<div class="card dashboard">
 			<div class="top">
 				<div class="user">
-					<div class="avatar"></div>
+					<div class="avatar">
+						<img src="../assets/images/company.svg" alt="">
+					</div>
 					<div class="user-info">
 						<div class="name">Affinity Dashboards</div>
 						<div class="id">Bind your key to gain access</div>
@@ -40,7 +44,7 @@
 				</div>
 				<div class="btn-wraper">
 					<button class="bind-btn" @click="submitAuth()">
-						<i class="fas fa-key"></i>
+						<img src="../assets/images/key.svg" alt="">
 						<span>Bind Key</span>
 					</button>
 				</div>

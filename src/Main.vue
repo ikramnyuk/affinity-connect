@@ -8,7 +8,7 @@
 
 		<div class="footer">
 			<span>Powere by </span>
-			<img src="./assets/images/logo.png" alt="">
+			<img src="./assets/images/logo.svg" alt="">
 		</div>
 	</div>
 </template>

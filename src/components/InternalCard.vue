@@ -1,14 +1,12 @@
 <template>
 	<div class="card-container">
-		<div class="empty-block-wrap">
-			<div class="empty-block"></div>
-			<div class="empty-block"></div>
-		</div>
 		<div class="card-wraper">
 			<div class="card">
 				<div class="top">
 					<div class="user">
-						<div class="avatar"></div>
+						<div class="avatar">
+							<img src="../assets/images/avatar.svg" alt="">
+						</div>
 						<div class="user-info">
 							<div class="name">UserName#0001</div>
 							<div class="id">Joined January 1st, 2020</div>
@@ -31,7 +29,7 @@
 						</div>
 
 						<div class="edit">
-							<i class="fas fa-pencil-alt"></i>
+							<img src="../assets/images/edit.svg" alt="">
 							<span>Edit</span>
 						</div>
 					</div>
@@ -43,18 +41,18 @@
 						</div>
 
 						<div class="edit">
-							<i class="fas fa-pencil-alt"></i>
+							<img src="../assets/images/edit.svg" alt="">
 							<span>Edit</span>
 						</div>
 					</div>
 
 					<div class="btns">
 						<button class="purple">
-							<i class="fas fa-comment-dots"></i>
+							<img src="../assets/images/chat.svg" alt="">
 							<span>Contact Support</span>
 						</button>
 						<button class="blue">
-							<i class="fab fa-discord"></i>
+							<img src="../assets/images/discord.svg" alt="">
 							<span>Join Discord</span>
 						</button>
 					</div>
@@ -65,10 +63,19 @@
 
 				<div class="top">
 					<div class="user">
-						<div class="avatar"></div>
+						<div class="avatar">
+							<img src="../assets/images/company.svg" alt="">
+						</div>
 						<div class="user-info">
 							<div class="name">Affinity Dashboards</div>
-							<div class="id">$60.00 USD / monthly</div>
+							<div class="id edditional-id-info">
+								<span>$60.00 USD / monthly</span>
+
+								<span>
+									<img src="../assets/images/edit.svg" alt="">
+									<span>Apply Coupon</span>
+								</span>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -90,18 +97,18 @@
 						<div class="key-input-wraper">
 							<input value="V234BG45632FGH34" type="text" placeholder="Enter your key here...">
 							<div class="copy">
-								<i class="fas fa-copy"></i>
+								<img src="../assets/images/copy.svg" alt="">
 							</div>
 						</div>
 					</div>
 
 					<div class="btns">
 						<button class="purple">
-							<i class="fas fa-key"></i>
+							<img src="../assets/images/key.svg" alt="">
 							<span>Unbind Key</span>
 						</button>
-						<button class="blue" @click="cancelAuth()">
-							<i class="fas fa-trash"></i>
+						<button class="red" @click="cancelAuth()">
+							<img src="../assets/images/remove.svg" alt="">
 							<span>Cancel Membership</span>
 						</button>
 					</div>
