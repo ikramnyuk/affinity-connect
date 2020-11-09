@@ -26,7 +26,7 @@
 
             <div class="actions">
                 <div class="btn brown-color" @click="close()">Close</div>
-                <div class="btn blue-color"  @click="close()">Save Changes</div>
+                <div class="btn blue-color"  @click="close()">Unsuscribe</div>
             </div>
         </div>
     </div>

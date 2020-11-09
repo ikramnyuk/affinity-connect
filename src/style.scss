@@ -2,7 +2,16 @@
 
 @font-face {
 	font-family: 'SegoeUI';
-	src: url('./assets/9404.ttf') format('truetype');
+    src: url('./assets/segoeui.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+	font-family: 'SegoeUI';
+    src: url('./assets/segoeuib.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
 }
 
 *{

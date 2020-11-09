@@ -23,7 +23,7 @@
 							</div>
 
 							<div class="credit-card-info">
-								<div class="card-number">···· ···· ···· 1355</div>
+								<div class="card-number"><span>····</span><span>····</span><span>····</span> 1355</div>
 								<div class="card-date">12/2023</div>
 							</div>
 						</div>
@@ -93,7 +93,7 @@
 						</div>
 					</div>
 
-					<div class="info-row">
+					<div class="info-row code">
 						<div class="key-input-wraper">
 							<input value="V234BG45632FGH34" type="text" placeholder="Enter your key here...">
 							<div class="copy">
