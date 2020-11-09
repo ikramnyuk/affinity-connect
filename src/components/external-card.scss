@@ -22,8 +22,8 @@
 	}
 
 	&.dashboard{
-		.top{
-			background-color:#7f7f7f;
+		.top {
+			background-image: url(../assets/images/bg-2.png);
 		}
 
 		.avatar{
@@ -32,10 +32,13 @@
 	}
 
 	.top{
+		position: relative;
 		padding: 24px 20px;
-		background-color: #060a13;
 		border-top-left-radius: 3px;
 		border-top-right-radius: 3px;
+		background-image: url(../assets/images/bg-1.png);
+		background-size: contain;
+		background-position: center center;
 
 		.user{
 			position: relative;

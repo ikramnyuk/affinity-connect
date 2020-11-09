@@ -38,7 +38,7 @@
 	span{
 		margin-right: 5px;
 		color: #9c9c9c;
-		font-size: 13px;
+		font-size: 14px;
 		font-weight: 500;
 	}
 }
@@ -85,4 +85,141 @@
             color: $font_dark_gray;
         }
     }
+}
+
+@media(max-width: 768px){
+    .card .top{
+        padding: 20px;
+    }
+
+    .card .top .avatar{
+        width: 54px;
+        height: 54px;
+    }
+
+    .card .top .user-info{
+        margin-left: 12px;
+    }
+
+    .card .top .user-info .name{
+        font-size: 16px;
+    }
+
+    .card .top .user-info .id{
+        font-size: 12px;
+    }
+
+    .card .bottom{
+        padding: 12px 20px 14px;
+    }
+
+    .card .bottom .info p{
+        font-size: 10px;
+        line-height: 15px;
+    }
+
+    .card .bottom .info{
+        padding-bottom: 14px;
+        min-height: auto;
+    }
+
+    .card .bottom .btn-wraper button{
+        height: 24px;
+        width: 134px;
+    }
+
+    .card .bottom .btn-wraper button span{
+        font-size: 12px;
+    }
+
+    .card .bottom .btn-wraper > span{
+        font-size: 10px;
+    }
+
+    .container{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+
+    .card .bottom .info .key-input{
+        height: 24px;
+    }
+
+    .status{
+        width: 41px;
+        height: 14px;
+        font-size: 8px;
+        padding: 0;
+        padding-top: 1px;
+    }
+
+    .card-image{
+        padding: 6px 7px;
+    }
+
+    .bottom .info-row .credit-card .card-date{
+        margin-top: 5px;
+    }
+
+    .bottom .info-row .credit-card .credit-card-info{
+        padding-left: 16px;
+    }
+
+    .bottom .info-row:nth-child(2){
+        margin-top: 12px;
+        padding-bottom: 12px;
+    }
+
+    .bottom .btns button{
+        padding: 4px 9px;
+        
+        span{
+            font-size: 12px;
+        }
+    }
+
+    .bottom .progress .labels{
+        margin-bottom: 8px;
+        font-size: 12px;
+    }
+
+    .bottom .btns{
+        padding-top: 16px;
+    }
+
+    .bottom .key-input-wraper input{
+        padding-top: 2.5px;
+        padding-bottom: 2.5px;
+    }
+
+    .footer{
+        .footer span{
+            font-size: 12px;
+        }
+
+        img{
+            height: 14px;
+        }
+    }
+
+    .modal-window-wrap .modal-window .form .custom-row{
+        flex-wrap: wrap;   
+    }
+
+    .modal-window-wrap .modal-window .form .custom-row .custom-col{
+        width: 100%;
+    }
+
+    .card.dashboard .top{
+        padding-right: 0;
+    }
+}
+
+.id .edditional-id-info img{
+    position: relative;
+    top: 1px;
 }
